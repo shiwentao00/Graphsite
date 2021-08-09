@@ -50,3 +50,6 @@ Please cite our paper if you find this package useful in your project :)
 ```
 Currently under peer review
 ```
+
+## Feedback
+If you have any questions or suggestions, please submit an issue or pull request. Anyone is welcome to contribute :)

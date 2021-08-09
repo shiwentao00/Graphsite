@@ -33,7 +33,7 @@ The ```node_feature```, ```edge_index```, and ```edge_attr``` are numpy arrays. 
 ```
 
 ### A Pytorch example
-Below is an example where the output matrices of graphsite are used to create graphs for (Pytorch-geometric)[https://pytorch-geometric.readthedocs.io/en/latest/].
+Below is an example where the output matrices of graphsite are used to create graphs for [Pytorch-geometric](https://pytorch-geometric.readthedocs.io/en/latest/).
 ```python
 from torch_geometric.data import Data
 
@@ -43,7 +43,7 @@ data = Data(
     edge_attr=edge_attr)
 )
 ```
-For a complete deep learning example, please see (Graphsite-classifier)[https://github.com/shiwentao00/Graphsite-classifier], where we build a graph classifier over 14 classes of binding pockets.
+For a complete deep learning example, please see [Graphsite-classifier](https://github.com/shiwentao00/Graphsite-classifier), where we build a graph classifier over 14 classes of binding pockets.
 
 ## Cite our work
 Please cite our paper if you find this package useful in your project :)

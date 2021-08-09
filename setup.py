@@ -1,5 +1,3 @@
-import sys
-
 with open('README.md', 'r') as f:
     long_description = f.read()
 
@@ -19,5 +17,5 @@ setup(
     url="https://github.com/shiwentao00/Graphsite",    
     install_requires=['numpy', 'pandas', 'biopandas', 'scipy'],
     packages=['graphsite'],
-    python_requires=">=3.6",
+    python_requires=">=3.7",
 )

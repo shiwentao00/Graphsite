@@ -29,7 +29,8 @@ node_feature, edge_index, edge_attr = pocket_to_graph(
     )
 ```
 The ```node_feature```, ```edge_index```, and ```edge_attr``` are numpy arrays. For more information about input paramters and output formats, see help:
-```
+```python
+help(Graphsite)
 ```
 
 ### A Pytorch example

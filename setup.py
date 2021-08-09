@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 with open('README.md', 'r') as f:
     long_description = f.read()
 
@@ -5,7 +7,7 @@ version = {}
 with open("graphsite/version.py", "r") as stream:
     exec(stream.read(), version)
     
-from distutils.core import setup
+from setuptools import setup
 setup(
     name="graphsite",
     version=version["__version__"],

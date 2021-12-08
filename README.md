@@ -48,10 +48,7 @@ data = Data(
 For a complete deep learning example, please see [Graphsite-classifier](https://github.com/shiwentao00/Graphsite-classifier), where we build a graph classifier over 14 classes of binding pockets.
 
 ## Cite our work
-Please cite our paper if you find this package useful in your project :)
-```
-Currently under peer review
-```
+Graphsite is currently under peer review. Please cite this [preprint](https://www.biorxiv.org/content/10.1101/2021.12.06.471420v1) if you find this package useful in your project :)
 
 ## Feedback
 If you have any questions or suggestions, please submit an issue or pull request. Anyone is welcome to contribute :)

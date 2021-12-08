@@ -15,7 +15,7 @@ The main module of Graphsite is a callable class which reads 3 files as input:
 from graphsite import Graphsite
 
 graphsite = Graphsite()
-node_feature, edge_index, edge_attr = pocket_to_graph(
+node_feature, edge_index, edge_attr = graphsite(
         # path to the .mol2 file of pocket
         mol_path=mol_path, 
 
